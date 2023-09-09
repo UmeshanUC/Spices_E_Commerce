@@ -39,7 +39,7 @@ const ConsumerScreen = () => {
 	return (
 		<div className='consumerProductScreen'>
 			<Meta title='Spices | HOME' />
-			<header className='header'>
+			<header className='header mb-2'>
 				<input type='text' value={searchQuery} onChange={handleSearch} placeholder='Search by product name...' />
 			</header>
 			<Container className='consumerContainer'>

@@ -6,9 +6,8 @@ import './ConsumerProduts.css';
 const ConsumerProducts = ({ _id, prod_name, image, price, avalaible_location, prod_size }) => {
 	return (
 		<Col sm={12} md={6} lg={4}>
-			<Card style={{ minWidth: 250 }} className='mb-3'>
+			<Card style={{ minWidth: 250 }} className='my-3 p-1'>
 				<Card.Img className='image mx-auto' src={image} variant='top' />
-
 				<Card.Body>
 					<hr />
 					<LinkContainer to={`/consumer/${_id}`}>
