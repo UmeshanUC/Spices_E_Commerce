@@ -51,7 +51,7 @@ const Header = () => {
                         <Route render = {({history}) => <Search history={history}/> } />
                     </div> */}
 
-					<LinkContainer to='/cart'>
+					<LinkContainer style={{ minWidth: 100 }} to='/cart'>
 						<Nav.Link className={`${userInfo ? 'remove-space' : 'add-space cart nav-cal'} `}>
 							<i className='fas fa-shopping-cart'></i>
 							CART
