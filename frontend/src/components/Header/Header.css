@@ -1,0 +1,60 @@
+.navbar {
+	background-color: #04472b !important;
+	width: auto;
+	color: white !important;
+}
+.nav-cal {
+	width: auto;
+	color: white !important;
+	font-size: 14px;
+}
+
+#username,
+#adminmenu {
+	color: white !important;
+	font-size: 14px;
+}
+
+.cart {
+	text-decoration: none !important;
+	margin-left: 0rem !important;
+	font-size: 14px !important;
+	color: white !important;
+}
+
+.fa-shopping-cart {
+	margin-right: 8px;
+	color: white;
+}
+
+.mr-auto {
+	position: absolute;
+	right: 100px;
+}
+
+@media only screen and (min-width: 992px) {
+	.navbar {
+		height: 90px;
+	}
+	.cart {
+		float: right !important;
+		/* margin-left: 80rem !important; */
+		color: white !important;
+		font-size: 14px !important;
+	}
+	.remove-space {
+		float: right !important;
+		margin-left: 80rem !important;
+		color: white !important;
+		font-size: 14px !important;
+	}
+	.nav-cal {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.nav-cal {
+		font-size: 15px !important;
+	}
+}

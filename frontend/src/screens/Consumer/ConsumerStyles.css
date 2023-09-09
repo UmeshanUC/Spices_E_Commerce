@@ -1,0 +1,54 @@
+.consumerProductScreen {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .consumerContainer {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .consumerContainer {
+      padding: 10px;
+    }
+  }
+
+  .consumerContainer .row .card.searchedProductCard {
+    flex: 0 0 33.333333%;
+    max-width: 100%;
+  }
+
+  @media (min-width: 992px) {
+    .consumerContainer .row .card.searchedProductCard {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .consumerContainer .row .card.col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .consumerContainer .row .card.col-sm-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  
